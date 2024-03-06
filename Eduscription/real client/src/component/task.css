@@ -1,0 +1,87 @@
+.flex-dox {
+  display: flex;
+}
+.tasktitle {
+  color: #627ef6;
+}
+.task-leftLine {
+  text-align: left;
+  width: 100%;
+}
+.task-rightLine {
+  width: 35%;
+}
+.taskProgress {
+  width: 100%;
+  padding: 10%;
+  padding-top: 1%;
+  border: solid #bdbdbd 0;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+}
+#progress {
+  appearance: none;
+  width: 100%;
+}
+#progress::-webkit-progress-bar {
+  background: #f0f0f0;
+  border-radius: 10px;
+  box-shadow: inset 3px 3px 10px #ccc;
+}
+#progress::-webkit-progress-value {
+  border-radius: 10px;
+  background: #627ef6;
+  background: -webkit-linear-gradient(to right, #93a6fc, #627ef6);
+  background: linear-gradient(to right, #8fa2f9, #627ef6);
+}
+.task-dates {
+  display: flex;
+  justify-content: space-between;
+}
+.task-today {
+  color: #627ef6;
+  font-weight: bold;
+}
+.td:after {
+  content: "";
+  display: block;
+  border-bottom: 1px solid gray;
+  margin: 20px auto;
+}
+.todoList {
+  padding: 10px;
+  border: solid #bdbdbd 0;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+}
+.todo-button {
+  display: flex;
+  justify-content: space-between;
+}
+.todoHead {
+  font-weight: bold;
+}
+.todoText {
+  color: gray;
+}
+.todobutton {
+  align-content: end;
+}
+.rem-button {
+  height: 30px;
+  cursor: pointer;
+  outline: 0;
+  color: #627ef6;
+  background-color: #fff;
+  border: 1px solid transparent;
+  border-color: #627ef6;
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+
+  padding: 6px 12px;
+  font-size: 16px;
+  border-radius: 0.25rem;
+}
